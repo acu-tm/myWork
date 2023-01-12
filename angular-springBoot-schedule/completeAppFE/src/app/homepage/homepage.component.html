@@ -1,0 +1,26 @@
+<div class="outerContainer" style="padding: 13px;">
+
+  <div fxLayout="row" fxLayoutGap="16px grid" fxFlexFill>
+
+    <div class="content" fxLayout="column wrap">
+      <app-course-min-details *ngFor="let course of dailyMovie1" [movie]="course"></app-course-min-details>
+    </div>
+
+    <div class="content" fxLayout="column wrap">
+      <app-course-min-details *ngFor="let course of dailyMovie2" [movie]="course"></app-course-min-details>
+    </div>
+
+    <div class="content" fxLayout="column wrap">
+      <app-course-min-details *ngFor="let course of dailyMovie3" [movie]="course"></app-course-min-details>
+    </div>
+
+    <div class="content" fxLayout="column wrap">
+      <app-course-min-details *ngFor="let course of dailyMovie4" [movie]="course"></app-course-min-details>
+    </div>
+
+    <div class="content" fxLayout="column wrap">
+      <app-course-min-details *ngFor="let course of dailyMovie5" [movie]="course"></app-course-min-details>
+    </div>
+
+  </div>
+</div>

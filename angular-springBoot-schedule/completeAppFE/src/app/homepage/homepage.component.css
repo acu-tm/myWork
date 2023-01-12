@@ -1,0 +1,16 @@
+.host {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+  padding: 16px;
+  border: wave darkblue 4px;
+}
+
+.content > mat-card {
+  width: 100%;
+}
+

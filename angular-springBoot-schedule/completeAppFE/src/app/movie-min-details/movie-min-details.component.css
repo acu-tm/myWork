@@ -1,0 +1,19 @@
+.content {
+  padding: 16px;
+}
+
+.content > mat-card {
+  width: 100%;
+}
+
+table {
+  border: 1px solid black;
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+}
+
+thead {
+  background-color: #04AA6D;
+  color: white;
+}
